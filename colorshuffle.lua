@@ -34,7 +34,7 @@ local builtin = {
 	"zenburn",
 }
 
-function extractNames(lines)
+local function extract_names(lines)
 	local list = {}
 	for line in lines:gmatch("[^\r\n]+") do
 		local name = line:match("([^/\\]+)%.micro$")
@@ -45,19 +45,19 @@ function extractNames(lines)
 	return list
 end
 
-function getAvailableColorSchemes()
+local function get_available_color_schemes()
 	local dir = config.ConfigDir .. "/colorschemes"
 
 	-- Try Unix-style ls
 	local out, err = shell.ExecCommand("ls", "-1", dir)
 	if out and out ~= "" then
-		return extractNames(out)
+		return extract_names(out)
 	end
 
 	-- Try Windows-style dir via cmd
 	out, err = shell.ExecCommand("cmd", "/C", "dir", "/b", dir .. "\\*.micro")
 	if out and out ~= "" then
-		return extractNames(out)
+		return extract_names(out)
 	end
 
 	-- If both methods fail
@@ -65,8 +65,8 @@ function getAvailableColorSchemes()
 	return {}
 end
 
-function mergeColorSchemes()
-	local merged = getAvailableColorSchemes()
+local function merge_color_schemes()
+	local merged = get_available_color_schemes()
 
 	for _, b in ipairs(builtin) do
 		table.insert(merged, b)
@@ -85,7 +85,7 @@ function mergeColorSchemes()
 	return unique
 end
 
-local colors = mergeColorSchemes()
+local colors = merge_color_schemes()
 
 function randomColorScheme()
 	local old = config.GetGlobalOption("colorscheme")
