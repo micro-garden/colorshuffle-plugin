@@ -1,0 +1,16 @@
+[{
+	"Name": "colorshuffle",
+	"Description": "A micro plugin that shuffles your theme each time you open a file.",
+	"Author": "Aki Kareha",
+	"Tags": ["color", "colorscheme", "theme", "random", "auto", "visual"],
+	"Website": "https://github.com/akikareha/micro-colorshuffle-plugin",
+	"Versions": [
+		{
+			"Version": "0.0.0",
+			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.0.zip",
+			"Require": {
+				"micro": ">=2.0.0"
+			}
+		}
+	]
+}]
