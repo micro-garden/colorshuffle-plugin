@@ -20,12 +20,8 @@ show colorscheme
 
 ## Limitations
 
-- **Not exactly "whenever you open a file"**  
-  The color scheme is set when a buffer pane is opened. This may happen in
-  various situations, for example when splitting panes or switching tabs, so
-  it is not strictly tied to file opening.
-
-- **Recognized color schemes**  
-  Only `.micro` files inside the `~/.config/micro/colorschemes/` directory are
-  detected. Built-in color schemes are included manually and may differ from
-  what your micro installation actually supports.
+This plugin supports both built-in color schemes and user-defined `.micro`
+files in `~/.config/micro/colorschemes/`.  
+The list of built-in schemes is hardcoded and may not match exactly what your
+micro installation provides.  
+Color schemes added dynamically by other plugins are **not detected**.

@@ -1,4 +1,4 @@
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 
 math.randomseed(os.time())
 
@@ -87,9 +87,9 @@ end
 
 local colors = mergeColorSchemes()
 
-function randomColorScheme(bp)
+function randomColorScheme()
 	local old = config.GetGlobalOption("colorscheme")
-	local scheme = nil
+	local scheme
 	repeat
 		scheme = colors[math.random(1, #colors)]
 	until scheme ~= old
@@ -97,8 +97,8 @@ function randomColorScheme(bp)
 	--micro.InfoBar():Message("Color scheme set to: " .. scheme)
 end
 
-function onBufPaneOpen(bp)
-	randomColorScheme(bp)
+function onBufferOpen(buf)
+	randomColorScheme()
 end
 
 function init()
