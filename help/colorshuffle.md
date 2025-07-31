@@ -1,7 +1,7 @@
 # Color Shuffle Plugin
 
-**Color Shuffle** is a micro plugin that randomly switches the color scheme
-whenever you open a file.
+**Color Shuffle** is a plugin that randomly switches the color scheme whenever
+you open a file.
 
 ## Features
 

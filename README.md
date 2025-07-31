@@ -1,7 +1,7 @@
 # Color Shuffle Plugin for Micro
 
-**Color Shuffle** is a [micro](https://micro-editor.github.io/) plugin that
-randomly switches the color scheme whenever you open a file.
+**Color Shuffle** is a plugin for the [micro](https://micro-editor.github.io/)
+text editor that randomly switches the color scheme whenever you open a file.
 
 See [help/colorshuffle.md](help/colorshuffle.md) for more details.
 
