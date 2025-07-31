@@ -3,6 +3,8 @@
 **Color Shuffle** is a [micro](https://micro-editor.github.io/) plugin that
 randomly switches the color scheme whenever you open a file.
 
+See [help/colorshuffle.md](help/colorshuffle.md) for more details.
+
 ## Installation
 
 Place the plugin folder in `~/.config/micro/plug/colorshuffle/`, or clone it
