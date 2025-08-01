@@ -4,6 +4,7 @@
 	"Author": "Aki Kareha",
 	"Tags": ["color", "colorscheme", "theme", "random", "auto", "visual"],
 	"Website": "https://github.com/akikareha/micro-colorshuffle-plugin",
+	"License": "MIT",
 	"Versions": [
 		{
 			"Version": "0.0.2",
