@@ -17,11 +17,3 @@ To check the current color scheme in micro, use the following built-in command:
 ```
 show colorscheme
 ```
-
-## Limitations
-
-This plugin supports both built-in color schemes and user-defined `.micro`
-files in `~/.config/micro/colorschemes/`.  
-The list of built-in schemes is hardcoded and may not match exactly what your
-micro installation provides.  
-Color schemes added dynamically by other plugins are **not detected**.
