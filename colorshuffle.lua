@@ -1,4 +1,4 @@
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 
 math.randomseed(os.time())
 
@@ -31,7 +31,15 @@ function randomColorScheme()
 end
 
 function onBufferOpen(buf)
+	if not config.GetGlobalOption("colorshuffle.enabled") then
+		return
+	end
+
 	randomColorScheme()
+end
+
+function preinit()
+	config.RegisterCommonOption("colorshuffle", "enabled", true)
 end
 
 function init()

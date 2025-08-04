@@ -9,6 +9,7 @@ you open a file.
 - Includes both built-in and user-defined themes
 - Avoids repeating the current scheme
 - Command `colorshuffle` and keybind `Ctrl-Alt-s` to switch on demand
+- `set colorshuffle.enabled false` disable colorshuffle
 
 ## Tips
 
