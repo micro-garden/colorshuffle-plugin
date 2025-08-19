@@ -1,4 +1,4 @@
-VERSION = "0.0.5"
+VERSION = "0.0.6"
 
 math.randomseed(os.time())
 
@@ -20,7 +20,7 @@ end
 
 local colors = get_colorschemes()
 
-function ColorShuffleCmd()
+function ColorShuffle()
 	local old = config.GetGlobalOption("colorscheme")
 	local scheme
 	repeat
@@ -35,7 +35,7 @@ function onBufferOpen(buf)
 		return
 	end
 
-	ColorShuffleCmd()
+	ColorShuffle()
 end
 
 function preinit()
@@ -45,7 +45,7 @@ end
 function init()
 	colors = get_colorschemes()
 
-	config.MakeCommand("colorshuffle", ColorShuffleCmd, config.NoComplete)
-	config.TryBindKey("Ctrl-Alt-s", "lua:colorshuffle.ColorShuffleCmd", false)
+	config.MakeCommand("colorshuffle", ColorShuffle, config.NoComplete)
+	config.TryBindKey("Ctrl-Alt-s", "lua:colorshuffle.ColorShuffle", false)
 	config.AddRuntimeFile("colorshuffle", config.RTHelp, "help/colorshuffle.md")
 end
