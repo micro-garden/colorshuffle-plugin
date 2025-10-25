@@ -3,54 +3,54 @@
 	"Description": "Shuffles your theme each time you open a file.",
 	"Author": "Aki Kareha",
 	"Tags": ["color", "colorscheme", "theme", "random", "auto", "visual"],
-	"Website": "https://github.com/akikareha/micro-colorshuffle-plugin",
+	"Website": "https://github.com/micro-garden/colorshuffle-plugin",
 	"License": "MIT",
 	"Versions": [
 		{
 			"Version": "0.0.6",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.6.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.6.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.5",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.5.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.5.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.4",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.4.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.4.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.3",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.3.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.3.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.2",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.2.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.2.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.1",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.1.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.1.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.0",
-			"Url": "https://github.com/akikareha/micro-colorshuffle-plugin/archive/v0.0.0.zip",
+			"Url": "https://github.com/micro-garden/colorshuffle-plugin/archive/v0.0.0.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
